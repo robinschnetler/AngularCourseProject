@@ -9,6 +9,7 @@ import { Recipe } from '../recipe.model';
 export class RecipeListComponent implements OnInit {
 
   recipes: Recipe[] = [
+    new Recipe('A Test Recipe', 'This is a test', 'http://ichef.bbci.co.uk/food/ic/food_16x9_506/recipes/chicken_pasta_bake_25701_16x9.jpg'),
     new Recipe('A Test Recipe', 'This is a test', 'http://ichef.bbci.co.uk/food/ic/food_16x9_506/recipes/chicken_pasta_bake_25701_16x9.jpg')
   ];
 
